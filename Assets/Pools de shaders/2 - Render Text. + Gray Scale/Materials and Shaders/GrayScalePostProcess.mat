@@ -27,6 +27,10 @@ Material:
         m_Texture: {fileID: 8400000, guid: 43bf5b26ae2481642b9b66ade36d32f8, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 8400000, guid: 43bf5b26ae2481642b9b66ade36d32f8, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _TextureSample1:
         m_Texture: {fileID: 8400000, guid: 43bf5b26ae2481642b9b66ade36d32f8, type: 2}
         m_Scale: {x: 1, y: 1}
@@ -37,7 +41,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Exponent: 1.188
     - _Float0: 0
-    m_Colors: []
+    - _GrayAmount: 1
+    - _Scale: 0.689
+    m_Colors:
+    - _Center: {r: 0.5, g: 0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
